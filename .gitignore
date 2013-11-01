@@ -13,3 +13,6 @@ batch-importer/.settings
 batch-importer/.project
 .project
 .settings
+.gradle/
+build/
+out/
