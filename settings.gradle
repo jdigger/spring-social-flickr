@@ -1,0 +1,6 @@
+rootProject.name = 'spring-social-flickr'
+include ':spring-social-flickr-core', ':spring-social-flickr-web', ':batch-importer'
+
+project(':spring-social-flickr-core').projectDir = "$rootDir/core" as File
+project(':spring-social-flickr-web').projectDir = "$rootDir/web" as File
+project(':batch-importer').projectDir = "$rootDir/batch-importer" as File
